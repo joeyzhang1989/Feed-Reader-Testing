@@ -1,24 +1,17 @@
 # Project Overview
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+This project using [Jasmine](http://jasmine.github.io/) test framework to write testing suites to a given web-based application that reads RSS feeds. Exploiting Jasmine to write a number of tests against a pre-existing application. Test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
+## Getting started
 
-## Why this Project?
+### Locally
 
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
+**1.** Clone this repo:
 
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+```
+$ git clone https://github.com/joeyzhang1989/Feed-Reader-Testing.git
+````
 
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
-## How will this help my career?
-
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
 # How will I complete this project?
@@ -46,3 +39,8 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+#License
+This project is a public domain work, dedicated using
+[MIT](https://opensource.org/licenses/MIT). Feel free to do
+whatever you want with it.
