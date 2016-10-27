@@ -112,12 +112,15 @@ $(function() {
              * Remember, loadFeed() is asynchronous.
              */
         var container = $('.feed');
-        var firstFeed = container.html();
+        var firstFeed;
         var secondFeed;
         beforeEach(function(done) {
-            loadFeed(1, function() {
-                secondFeed = container.html();
-                done();
+            loadFeed(0, function() {
+                firstFeed = container.html();
+                 loadFeed(1, function() {
+                    secondFeed = container.html();
+                    done(); 
+                });
             });
         });
 
