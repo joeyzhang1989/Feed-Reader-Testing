@@ -12,7 +12,8 @@ https://joeyzhang1989.github.io/Feed-Reader-Testing/
 ```
 $ git clone https://github.com/joeyzhang1989/Feed-Reader-Testing.git
 ````
-
+**2.** Clone this repo:
+Open the index.html to see the result
 # Code walkthrough
 ## Structure
 1.Test suites
